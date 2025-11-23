@@ -9,7 +9,8 @@
 	<title>Пример страницы — ТриСервисБел</title>
 <meta name="robots" content="max-image-preview:large">
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
-	<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+	<link rel="dns-prefetch" href="//unpkg.com">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 <link rel="alternate" type="application/rss+xml" title="ТриСервисБел » Лента комментариев к «Пример страницы»" href="./feed/index.html">
 <script>
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
@@ -51,8 +52,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="./../index.html?p=2">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2F%2Fsample-page%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2F%2Fsample-page%2F&amp;format=xml">
-<!-- VITE DEV INJECT: start -->
-<script type="module" src="http://localhost:5173/@vite/client"></script><script type="module" src="http://localhost:5173/main.js"></script><!-- VITE DEV INJECT: end -->
 <link rel="icon" href="./../wp-content/uploads/2025/11/logo-150x150.png" sizes="32x32">
 <link rel="icon" href="./../wp-content/uploads/2025/11/logo.png" sizes="192x192">
 <link rel="apple-touch-icon" href="./../wp-content/uploads/2025/11/logo.png">
@@ -66,24 +65,19 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 				<div class="logo header__logo">
 					<a href="./../index.html" class="custom-logo-link" rel="home"><img width="161" height="160" src="./../wp-content/uploads/2025/11/logo.png" class="custom-logo" alt="ТриСервисБел" decoding="async" srcset="./../wp-content/uploads/2025/11/logo.png 161w, ./../wp-content/uploads/2025/11/logo-150x150.png 150w" sizes="(max-width: 161px) 100vw, 161px"></a>				</div>
 				<div class="header__info phone-menu">
-					<div class="header__address" style="--address-icon: url('./../wp-content/themes/treeservicebel/assets/images/icons/pin.svg');">
+					<div class="header__address" style="--address-icon: url('../artcly/treeservicebel/wp-content/themes/treeservicebel/assets/images/icons/pin.svg');">
 						<div class="descr-box">
-							<p>Юридический адрес: 223039, Минская обл., Минский район, Хатежинский с/с, аг. Хатежино, ул.
-								Центральная, 18Б, к. 1, пом. 51/8-9</p>
-							<!--<p>Время работы: 8.00-17.00 понедельник- пятница
-								выходные: суббота, воскресенье</p>-->
+							<p>Юридический адрес: 223039, Минская обл., Минский район, Хатежинский с/с, аг. Хатежино, ул. Центральная, 18Б, к. 1, пом. 51/8-9</p>
 						</div>
 					</div>
-					<div class="phone-box header__phone-box">
-	<li class="phone-box__item">
-		<a class="phone-box__link link" href="tel:+375%20(44)%20768-60-68" style="--phone-icon: url('./../wp-content/themes/treeservicebel/assets/images/icons/a1.png');">+375
-			(44) 768-60-68</a>
-	</li>
-	<li class="phone-box__item">
-		<a class="phone-box__link link" href="tel:+375%20(44)%20768-60-68" style="--phone-icon: url('./../wp-content/themes/treeservicebel/assets/images/icons/mts.png');">+375
-			(29) 768-60-68</a>
-	</li>
-</div>					<button class="btn header__btn" type="button" data-modal-btn="form-modal">Перезвоните мне</button>				</div>
+					<ul class="phone-box header__phone-box">
+				<li class="phone-box__item">
+				<a class="phone-box__link link" href="tel:+375447686068" style="--phone-icon: url('../artcly/treeservicebel/wp-content/uploads/2025/11/a1.png');">+375 (44) 768-60-68</a>
+			</li>
+					<li class="phone-box__item">
+				<a class="phone-box__link link" href="tel:+375297686068" style="--phone-icon: url('../artcly/treeservicebel/wp-content/uploads/2025/11/mts.png');">+375 (29) 768-60-68</a>
+			</li>
+		</ul>					<button class="btn header__btn" type="button" data-modal-btn="form-modal">Перезвонить мне</button>				</div>
 				<button class="header__phone-btn phone-btn" type="button">
 					<svg width="28" height="30" viewbox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M5.63889 12.9917C7.87889 17.7083 11.48 21.5667 15.89 23.9667L19.3122 20.2917C19.74 19.8333 20.3544 19.7 20.8911 19.8833C22.6333 20.5 24.5078 20.8333 26.4444 20.8333C27.3078 20.8333 28 21.575 28 22.5V28.3333C28 29.2583 27.3078 30 26.4444 30C11.8378 30 0 17.3167 0 1.66667C0 0.741667 0.7 0 1.55556 0H7C7.86333 0 8.55556 0.741667 8.55556 1.66667C8.55556 3.74167 8.86667 5.75 9.44222 7.61667C9.61333 8.19167 9.48889 8.85 9.06111 9.30833L5.63889 12.9917Z" fill="currentColor"></path>
@@ -93,19 +87,49 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 			</div>
 			<div class="container">
 				<nav class="header-menu header__menu">
-					<ul id="menu-menyu-shapki" class="header-menu__list"><li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-15"><a href="./../index.html">Главная</a>
+					<ul id="menu-menyu-shapki" class="header-menu__list"><li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191"><a href="./../services/index.html">Услуги</a>
 <ul class="sub-menu">
-	<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-16"><a rel="privacy-policy" href="./../privacy-policy/index.html">Политика конфиденциальности</a></li>
+	<li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-195"><a href="./../services/udalenie-derevev/index.html">Удаление деревьев</a></li>
+	<li id="menu-item-194" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-194"><a href="./../services/raschistka-uchastka/index.html">Расчистка участка</a></li>
+	<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-356"><a href="./../services/vyvoz-i-utilizacziya/index.html">Вывоз и утилизация</a></li>
+	<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-193"><a href="./../services/obrezka-i-kronirovanie/index.html">Обрезка и кронирование</a></li>
+	<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-192"><a href="./../services/arenda-tehniki/index.html">Аренда техники</a></li>
+	<li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-357"><a href="./../services/udalenie-pnej/index.html">Удаление пней</a></li>
+	<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-355"><a href="./../services/kompensaczionnye-vysadki-derevev/index.html">Компенсационные высадки деревьев</a></li>
 </ul>
 </li>
-<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-17"><a href="./index.html" aria-current="page">Пример страницы</a></li>
-<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="./../uslugi/index.html">Услуги</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-190"><a href="./../clients/index.html">Наши клиенты</a>
+<ul class="sub-menu">
+	<li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-360"><a href="./../clients/chastnye-licza-vladelczy-domov-kottedzhej-dach/index.html">Работы для частных домов, коттеджей и дач</a></li>
+	<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-359"><a href="./../clients/obsluzhivanie-territorij-gosudarstvennyh-uchrezhdenij-shkoly-bolniczy-zhkh/index.html">Обслуживание территорий государственных учреждений, школы, больницы, ЖКХ</a></li>
+	<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-358"><a href="./../clients/obsluzhivanie-kommercheskih-i-promyshlennyh-obektov/index.html">Обслуживание коммерческих и промышленных объектов</a></li>
+	<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-361"><a href="./../clients/raschistka-i-podgotovka-uchastkov-dlya-stroitelstva/index.html">Расчистка и подготовка участков для строительства</a></li>
+	<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-362"><a href="./../clients/uhod-za-zelyonymi-nasazhdeniyami-v-sadovyh-tovarishhestvah/index.html">Уход за зелёными насаждениями в садовых товариществах</a></li>
+</ul>
+</li>
+<li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="./../about/index.html">О компании</a></li>
+<li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="./../jobs/index.html">Вакансии</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="./../contacts/index.html">Контакты</a></li>
 </ul>				</nav>
 			</div>
 		</header>
 		<main class="main">
+							
+<section class="section hero-page hero jarallax" id="hero">
+	<div class="container hero__container">
+		<h2 class="title-1 hero__title">Пример страницы</h2>
+	</div>
+	<div class="hero__image image-box jarallax-img" aria-hidden>
+		<img src="./../wp-content/themes/treeservicebel/assets/images/hero.jpg" alt="">
+	</div>
+</section>				<div class="container section breadcrumbs-section">
+					<div class="breadcrumbs">
+						<!-- Breadcrumb NavXT 7.4.1 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Перейти к ТриСервисБел." href="./../index.html" class="home"><span property="name">ТриСервисБел</span></a><meta property="position" content="1"></span><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-page current-item">Пример страницы</span><meta property="url" content="./index.html"><meta property="position" content="2"></span>					</div>
+				</div>
+			
 
-						<h1>Пример страницы</h1>
+			<div class="section container descr-box">
 			
 <p>Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице «Детали» владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:</p>
 
@@ -124,7 +148,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <p>Перейдите <a href="./../wp-admin/index.html">в консоль</a>, чтобы удалить эту страницу и создать новые. Успехов!</p>
-			
+		</div>
+	
 
 </main>
 <footer class="footer section">
@@ -132,52 +157,59 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 		<div class="logo footer__logo">
 			<a href="./../index.html" class="custom-logo-link" rel="home"><img width="161" height="160" src="./../wp-content/uploads/2025/11/logo.png" class="custom-logo" alt="ТриСервисБел" decoding="async" srcset="./../wp-content/uploads/2025/11/logo.png 161w, ./../wp-content/uploads/2025/11/logo-150x150.png 150w" sizes="(max-width: 161px) 100vw, 161px"></a>		</div>
 		<nav class="footer-menu footer__menu">
-			<ul id="menu-menyu-podvala" class="footer-menu__list"><li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-22"><a href="./../index.html">Главная</a>
+			<ul id="menu-menyu-shapki-1" class="footer-menu__list"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-191"><a href="./../services/index.html">Услуги</a>
 <ul class="sub-menu">
-	<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-23"><a rel="privacy-policy" href="./../privacy-policy/index.html">Политика конфиденциальности</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-195"><a href="./../services/udalenie-derevev/index.html">Удаление деревьев</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-194"><a href="./../services/raschistka-uchastka/index.html">Расчистка участка</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-356"><a href="./../services/vyvoz-i-utilizacziya/index.html">Вывоз и утилизация</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-193"><a href="./../services/obrezka-i-kronirovanie/index.html">Обрезка и кронирование</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-192"><a href="./../services/arenda-tehniki/index.html">Аренда техники</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-357"><a href="./../services/udalenie-pnej/index.html">Удаление пней</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-services menu-item-355"><a href="./../services/kompensaczionnye-vysadki-derevev/index.html">Компенсационные высадки деревьев</a></li>
 </ul>
 </li>
-<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="./../uslugi/index.html">Услуги</a></li>
-<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-25"><a href="./index.html" aria-current="page">Пример страницы</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-190"><a href="./../clients/index.html">Наши клиенты</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-360"><a href="./../clients/chastnye-licza-vladelczy-domov-kottedzhej-dach/index.html">Работы для частных домов, коттеджей и дач</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-359"><a href="./../clients/obsluzhivanie-territorij-gosudarstvennyh-uchrezhdenij-shkoly-bolniczy-zhkh/index.html">Обслуживание территорий государственных учреждений, школы, больницы, ЖКХ</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-358"><a href="./../clients/obsluzhivanie-kommercheskih-i-promyshlennyh-obektov/index.html">Обслуживание коммерческих и промышленных объектов</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-361"><a href="./../clients/raschistka-i-podgotovka-uchastkov-dlya-stroitelstva/index.html">Расчистка и подготовка участков для строительства</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-clients menu-item-362"><a href="./../clients/uhod-za-zelyonymi-nasazhdeniyami-v-sadovyh-tovarishhestvah/index.html">Уход за зелёными насаждениями в садовых товариществах</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="./../about/index.html">О компании</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363"><a href="./../jobs/index.html">Вакансии</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="./../contacts/index.html">Контакты</a></li>
 </ul>		</nav>
-		<div class="phone-box footer__phone-box">
-	<li class="phone-box__item">
-		<a class="phone-box__link link" href="tel:+375%20(44)%20768-60-68" style="--phone-icon: url('./../wp-content/themes/treeservicebel/assets/images/icons/a1.png');">+375
-			(44) 768-60-68</a>
-	</li>
-	<li class="phone-box__item">
-		<a class="phone-box__link link" href="tel:+375%20(44)%20768-60-68" style="--phone-icon: url('./../wp-content/themes/treeservicebel/assets/images/icons/mts.png');">+375
-			(29) 768-60-68</a>
-	</li>
-</div>		<div class="footer__info descr-box">
-			<p><strong>Юридический адрес:</strong> 223039, Минская обл., Минский район, Хатежинский с/с, аг. Хатежино, ул.
-				Центральная, 18Б, к. 1, пом. 51/8-9</p>
-
-			<p><strong>Почтовый адрес:</strong> 222161, г. Жодино, ул. 40 лет Октября, д. 47, кв. 47</p>
-
-			<p><strong>E-mail:</strong> <a href="mailto:treeservice.by@gmail.com">treeservice.by@gmail.com</a></p>
-
-			<p><strong>р/с:</strong> BY20ALFA30122D12220010270000</p>
-
-			<p><strong>Банк:</strong> ЗАО «Альфа Банк», г. Минск, ул. Сурганова, 43-47</p>
-
-			<p><strong>БИК:</strong> ALFABY2X <strong>УНП:</strong> 692218018</p>
-
-			<p><strong>Время работы:</strong> 8.00–17.00 (понедельник – пятница)</p>
-
-			<p><strong>Выходные:</strong> суббота, воскресенье</p>
+		<ul class="phone-box footer__phone-box">
+				<li class="phone-box__item">
+				<a class="phone-box__link link" href="tel:+375447686068" style="--phone-icon: url('../artcly/treeservicebel/wp-content/uploads/2025/11/a1.png');">+375 (44) 768-60-68</a>
+			</li>
+					<li class="phone-box__item">
+				<a class="phone-box__link link" href="tel:+375297686068" style="--phone-icon: url('../artcly/treeservicebel/wp-content/uploads/2025/11/mts.png');">+375 (29) 768-60-68</a>
+			</li>
+		</ul>		<div class="footer__info descr-box">
+			<p><strong>Юридический адрес:</strong> 223039, Минская обл., Минский район, Хатежинский с/с, аг. Хатежино, ул. Центральная, 18Б, к. 1, пом. 51/8-9</p>
+<p><strong>Почтовый адрес:</strong> 222161, г. Жодино, ул. 40 лет Октября, д. 47, кв. 47</p>
+<p><strong>E-mail:</strong> <a href="mailto:treeservice.by@gmail.com">treeservice.by@gmail.com</a></p>
+<p><strong>р/с:</strong> BY20ALFA30122D12220010270000</p>
+<p><strong>Банк:</strong> ЗАО «Альфа Банк», г. Минск, ул. Сурганова, 43-47</p>
+<p><strong>БИК:</strong> ALFABY2X <strong>УНП:</strong> 692218018</p>
+<p><strong>Время работы:</strong> 8.00–17.00 (понедельник – пятница)</p>
+<p><strong>Выходные:</strong> суббота, воскресенье</p>
 		</div>
-		<button class="btn footer__btn" type="button" data-modal-btn="form-modal">Перезвоните мне</button>		<div class="footer__copy-box">
-			<small class="footer__copy-small">© <span>ООО «ТриСервисБел»</span>, 2025</small>
+		<button class="btn footer__btn" type="button" data-modal-btn="form-modal">Перезвонить мне</button>		<div class="footer__copy-box">
+			<small class="footer__copy-small">© <span>
+					ООО «ТриСервисБел»</span>, 2025</small>
 			<ul class="footer__copy-links">
-				<li><a href="#">Политика конфиденциальности</a></li>
-				<li><a href="#">Политика обработки файлов cookie</a></li>
-			</ul>
+										<li><a href="./../policy/index.html">Политика конфиденциальности</a></li>
+											<li><a href="./../cookies/index.html">Политика обработки файлов cookie</a></li>
+								</ul>
 		</div>
 	</div>
 </footer>
 <div class="modal" id="form-modal" data-modal>
-	<div class="modal__box" data-modal-box style="background-image: url('./../wp-content/themes/treeservicebel/assets/images/modal-bg.png');">
+	<div class="modal__box" data-modal-box style="background-image: url('../artcly/treeservicebel/wp-content/uploads/2025/11/modal-bg.png');">
 		<button class="modal__close-btn" data-modal-close aria-label="Закрыть">
 			<svg width="17" height="17" viewbox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M16.875 1.96231L14.9127 0L8.4375 6.47519L1.96231 0L0 1.96231L6.47519 8.4375L0 14.9127L1.96231 16.875L8.4375 10.3998L14.9127 16.875L16.875 14.9127L10.3998 8.4375L16.875 1.96231Z" fill="currentColor"></path>
@@ -186,16 +218,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 		<div class="form-modal">
 			<div class="form-modal__wrapper">
 				<h3 class="form-modal__title title-3">
-					Оставьте заявку прямо сейчас и получите бесплатную консультацию
-				</h3>
+					Оставьте заявку прямо сейчас и получите бесплатную консультацию				</h3>
 				<div class="hero-form form-modal__form">
 					
 <div class="wpcf7 no-js" id="wpcf7-f7-o1" lang="ru-RU" dir="ltr" data-wpcf7-id="7">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/treeservicebel/sample-page/?simply_static_page=333#wpcf7-f7-o1" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
+<form action="/treeservicebel/sample-page/?simply_static_page=4966#wpcf7-f7-o1" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
 <fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="7"><input type="hidden" name="_wpcf7_version" value="6.1.3"><input type="hidden" name="_wpcf7_locale" value="ru_RU"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-o1"><input type="hidden" name="_wpcf7_container_post" value="0"><input type="hidden" name="_wpcf7_posted_data_hash" value="">
 </fieldset>
-<p><span class="wpcf7-form-control-wrap" data-name="text-469"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-name" aria-required="true" aria-invalid="false" placeholder="Имя" value="" type="text" name="text-469"></span><span class="wpcf7-form-control-wrap" data-name="tel-448"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-phone" aria-invalid="false" placeholder="Телефон" value="" type="tel" name="tel-448"></span><span class="wpcf7-form-control-wrap" data-name="acceptance-703"><span class="wpcf7-form-control wpcf7-acceptance optional"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance-703" value="1" class="form-acception" aria-invalid="false"><span class="wpcf7-list-item-label">Я согласен с <a href="http://localhost/policy">политикой конфиденциальности</a></span></label></span></span></span><input class="wpcf7-form-control wpcf7-submit has-spinner form-btn" type="submit" value="Получить бесплатную консультацию">
+<p><span class="wpcf7-form-control-wrap" data-name="text-469"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-name" aria-required="true" aria-invalid="false" placeholder="Имя" value="" type="text" name="text-469"></span><span class="wpcf7-form-control-wrap" data-name="tel-448"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form-phone" aria-required="true" aria-invalid="false" placeholder="Телефон" value="" type="tel" name="tel-448"></span><span class="wpcf7-form-control-wrap" data-name="acceptance-703"><span class="wpcf7-form-control wpcf7-acceptance optional"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance-703" value="1" class="form-acception" aria-invalid="false"><span class="wpcf7-list-item-label">Я согласен с <a href="http://localhost/policy">политикой конфиденциальности</a></span></label></span></span></span><input class="wpcf7-form-control wpcf7-submit has-spinner form-btn" type="submit" value="Получить бесплатную консультацию">
 </p><div class="wpcf7-response-output" aria-hidden="true"></div>
 </form>
 </div>
@@ -204,7 +235,20 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 		</div>
 	</div>
 </div>
-<script type="speculationrules">
+<div id="cookie-banner" class="cookie-banner">
+	<div class="cookie-banner__container container">
+		<p class="cookie-banner__content">
+			Для удобства пользователей сайта используются файлы cookie.
+			<br>Продолжая просмотр этого сайта, вы соглашаетесь на
+			обработку файлов cookie в соответствии с <a href="./../cookies/index.html" target="_blank">Политикой обработки файлов
+				cookie</a>
+		</p>
+		<div class="cookie-banner__buttons">
+			<button id="cookie-accept" class="btn">Принять</button>
+			<button id="cookie-decline" class="btn btn--stroke">Отклонить</button>
+		</div>
+	</div>
+</div><script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/treeservicebel\/*"},{"not":{"href_matches":["\/treeservicebel\/wp-*.php","\/treeservicebel\/wp-admin\/*","\/treeservicebel\/wp-content\/uploads\/*","\/treeservicebel\/wp-content\/*","\/treeservicebel\/wp-content\/plugins\/*","\/treeservicebel\/wp-content\/themes\/treeservicebel\/*","\/treeservicebel\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
 <script src="./../wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
@@ -229,6 +273,7 @@ var wpcf7 = {
 };
 </script>
 <script src="./../wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.3" id="contact-form-7-js"></script>
+<script src="https://unpkg.com/imask?ver=6.8.3" id="imask-js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?ver=6.8.3" id="swiper-js"></script>
 <script src="./../wp-content/themes/treeservicebel/assets/main.js?ver=6.8.3" id="wp-custom-wp-script-js"></script>
 </div></body>
